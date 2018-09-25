@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/owl.carousel.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript"  src="/js/owl.carousel.min.js"></script>
+	<script>
+		$(document).ready(function(){
+				$("#SlideShow > .owl-carousel").owlCarousel({
+				  rtl: true,
+				  nav: true,
+				  singleItem: true,
+				  items:1,
+				  lazyLoad: true,
+				});
+			  });
+	</script>
+	
+</head>
+
+<body>
+	<header id="site-header">
+		<a href="#" class="brand">
+        	<h1>
+            	MamadTV
+            </h1>
+        </a>
+        <div class="btns">
+        	<a href="#" class="signBtn">ورود / عضویت</a>
+            <a href="#" class="tvCal">تقویم پخش سریال</a>
+        </div>		
+    </header>
+    <nav id="primaryMenu">
+        <ul class="menu">
+        	<li><a href="#">خانه</a></li>
+        	<li><a href="#">وبلاگ</a></li>
+        	<li><a href="#">آرشیو فیلم ها</a></li>
+        	<li><a href="#">سریال ایرانی</a></li>
+        	<li><a href="#">سریال خارجی</a></li>
+            <li><a href="#">تماس با ما</a></li>
+        </ul>
+        <div class="searchIcon">
+        	<button onClick="search_tab()"><img id="search-btn" src="img/search.svg" alt="search"></button>
+        </div>
+        
+    </nav>
+	<div class="search">
+		<button id="search-cancel" onClick="search_tab()"><img src="img/error.svg"></button>
+        <form class="main_search">
+        	<input id="search-txt" type="text" placeholder="جست و جو">
+            <input id="go-search-btn" type="submit" value="بگرد!">
+			
+        </form>
+        <div class="search_bg"></div>
+    </div>
+	<section id="recnet_post">
+		<article>
+			<img src="Picture/Deadpool-2-Poster-1024x576.jpg" alt="عکس">			
+    			<a href="#" class="overlay"><h2>عنوان فیلم</h2></a>		
+		</article>
+		<article>
+			<img src="Picture/spider_man__homecoming_custom_poster_by_hz_designs-db9zpsv.jpg" alt="عکس">
+			<div class="overlay">
+    			<h2>عنوان فیلم</h2>
+  			</div>
+			
+		</article>
+		<article>
+			<img src="Picture/the-walking-dead-city-maxi-poster-1.16.jpg" alt="عکس">
+			<div class="overlay">
+    			<h2>عنوان فیلم</h2>
+  			</div>
+			
+		</article>
+		<article>
+			<img src="Picture/skyscraper.jpg" alt="عکس">
+			<div class="overlay">
+    			<h2>عنوان فیلم</h2>
+  			</div>
+			
+		</article>
+	</section>
+	
+	
+	<section id="recent-films">
+		<div class="title-bar"><h2>جدید ترین فیلم ها</h2></div>
+			<article>
+				<img src="Picture/the-walking-dead-city-maxi-poster-1.16.jpg">
+				<div class="overlay_post">
+					<a href="#"><h2>عنوان  فیلم</h2></a>
+					<a href="#">دسته بندی</a>
+				</div>
+			</article>
+		<article>
+				<img src="Picture/spider_man__homecoming_custom_poster_by_hz_designs-db9zpsv.jpg">
+				<div class="overlay_post">
+					<a href="#"><h2>عنوان  فیلم</h2></a>
+					<a href="#">دسته بندی</a>
+				</div>
+			</article>
+		<article>
+				<img src="Picture/Deadpool-2-Poster-1024x576.jpg">
+				<div class="overlay_post">
+					<a href="#"><h2>عنوان  فیلم</h2></a>
+					<a href="#">دسته بندی</a>
+				</div>
+			</article>
+		<article>
+				<img src="Picture/skyscraper.jpg">
+				<div class="overlay_post">
+					<a href="#"><h2>عنوان  فیلم</h2></a>
+					<a href="#">دسته بندی</a>
+				</div>
+			</article>
+		<article>
+				<img src="Picture/Doctor_Strange_poster.jpg">
+				<div class="overlay_post">
+					<a href="#"><h2>عنوان  فیلم</h2></a>
+					<a href="#">دسته بندی</a>
+				</div>
+			</article>
+	</section>
+	<section id="recent-series">
+		<div class="title-bar"><h2>سریال های بروز شده</h2></div>
+		<article>
+				<img src="Picture/the-walking-dead-city-maxi-poster-1.16.jpg">
+				<div class="overlay_post">
+					<a href="#"><h2>عنوان  فیلم</h2></a>
+					<a href="#">دسته بندی</a>
+				</div>
+		</article>
+		<article>
+				<img src="Picture/spider_man__homecoming_custom_poster_by_hz_designs-db9zpsv.jpg">
+				<div class="overlay_post">
+					<a href="#"><h2>عنوان  فیلم</h2></a>
+					<a href="#">دسته بندی</a>
+				</div>
+			</article>
+		<article>
+				<img src="Picture/skyscraper.jpg">
+				<div class="overlay_post">
+					<a href="#"><h2>عنوان  فیلم</h2></a>
+					<a href="#">دسته بندی</a>
+				</div>
+			</article>
+		<article>
+				<img src="Picture/Doctor_Strange_poster.jpg">
+				<div class="overlay_post">
+					<a href="#"><h2>عنوان  فیلم</h2></a>
+					<a href="#">دسته بندی</a>
+				</div>
+			</article>
+		<article>
+				<img src="Picture/Deadpool-2-Poster-1024x576.jpg">
+				<div class="overlay_post">
+					<a href="#"><h2>عنوان  فیلم</h2></a>
+					<a href="#">دسته بندی</a>
+				</div>
+			</article>
+		
+	</section>
+	<script type="text/javascript">
+				$(".search").hide();
+		function search_tab(){
+			$(".search").slideToggle(400);
+		}
+		</script>
+</body>
+
+<script src="js/bootstrap.min.js"></script>
+</html>
