@@ -1,0 +1,501 @@
+/*
+Theme Name: kargah
+Theme URI: 
+Author: Mohammad Sadeghian
+Author URI: kargahparsa.com
+Version: 1.5
+description: طراحی و کد نویس شده برای کارگاه طراحی پارسا  
+*/
+/* General Codes */
+a
+{
+	text-decoration: none;
+	color: #37474F;
+}
+/* CSS CODE */
+
+#SlideShow
+{
+	width: 80%;
+	margin: auto;
+	background-color: #006767;
+	color: #C0FFA9;
+	font-size: 50px;
+}
+#SlideShow p
+{
+	padding-top: 350px;
+	text-align: center;
+	font-family: Yekan;
+}
+#Menu
+{
+	width: 80%;
+	height: 200px;
+	margin: auto;
+}
+
+#Menu li{
+	margin-top: 10px;
+}
+#Menu a{
+	color: white;
+	font-family: Yekan;
+	font-size: 40px;
+	width: 30%;
+	height: 75px;
+	background-color: #78909C;
+	display: block;
+	float: right;
+	padding-top: 25px;
+	margin: 20px ;
+	text-align: center;
+	border-radius: 100px;
+	transition: 0.2s;
+	border: 1px solid;
+	border-color: #78909C;
+}
+#Menu a:hover{
+	color: #78909C;
+	background-color: #ECEFF1;
+	border: 1px solid;
+	border-color: #78909C;
+	-webkit-transition: 0.2s;
+}
+#container
+{
+	clear: both;
+	margin: 5% auto;
+	width:  88.3%;
+	height: 900px;
+	text-align: center;
+}
+#container article
+{ 
+	margin-top: 1px;
+	width: 30%;
+	height: 300px;
+	background-color: #ECEFF1;
+	display: inline-block;
+	position: relative;
+}
+#container article  > a > img
+{
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+#container  article > a >  h2
+{
+	font-family: Yekan;
+	font-size: 200%;
+	color: #ffffff;
+	line-height: 1.4;
+	position: absolute;
+	right: 50%;
+	top: 50%;
+	transform: translate(50%, -50%)
+}
+
+.card 
+{
+	width: 100%;
+	text-align: center;
+	background-color: #ffffff;
+}
+
+.card  h2
+{
+	font-family: Yekan , Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 120%;
+	line-height: 1.4;
+	margin: 2%;
+}
+.card  hr
+{
+	opacity: 0.5;
+	margin: 5% 5% 0 5%;
+}
+.card p
+{
+	text-align: justify;
+	font-family: IRANSansWeb;
+	font-size: 90%;
+	line-height: 2;
+	margin: 2% 4%;
+
+}
+.card footer > a
+{
+	font-family: IRANSansWeb;
+	padding: 5%;
+	display: block;
+	margin-bottom: 0px;
+
+}
+#post_img
+{
+	width: 100%;
+	height: 300px; 
+	object-fit: cover;
+}
+#post_img  img
+{
+	width: 100%;
+	height: 300px; 
+	object-fit: cover;
+}
+#blog_more{
+	color: #78909C;
+	background-color: #ECEFF1;
+	border: 1px solid;
+	border-color: #78909C;
+	-webkit-transition: 0.2s;
+	font-family: Yekan;
+	font-size: 20px;
+	width: 200px;
+	height: 40px;
+	line-height: 35px;
+	display: block;
+	margin: 3% auto;
+	text-align: center;
+	border-radius: 100px;
+	transition: 0.2s;
+}
+#blog_more:hover
+{
+	color: white; 
+	background-color: #78909C; 
+}
+#footer
+{
+	width: 100%;
+	height: auto;
+	background: #263238;
+	color: #F5F5F5;
+	text-align: center;
+	margin-bottom: 0px;
+	font-size: 100%;
+	line-height: 3;
+	font-family: Yekan;	
+}
+#menu_btn
+{
+	display: none;
+}
+
+#SlideShow
+{
+	position:relative;
+	font-family: IRANSansWeb;
+}
+#SlideShow .wave
+{
+	position:absolute;
+	bottom:0;height:40px;
+	width:100%;
+	z-index:10
+}
+#SlideShow .slide
+{
+	width:100%;
+	height:800px;
+	overflow:hidden
+}
+#SlideShow .slide > .slide-title
+{
+	text-align:center;
+	position:absolute;
+	bottom:100px;
+	right:50%;
+	transform:translateX(50%)
+}
+#SlideShow .slide > .slide-title > header
+{
+	background:rgba(0,0,0,0.5);
+	padding:5px 25px 10px;
+	color:#fff;
+	margin-bottom:15px;
+	font-size:1.5rem
+}
+#SlideShow  .slide > .slide-title  > a
+{
+	color:#fff;
+	display:block;
+	
+}
+#SlideShow .slide > .slide-title > a:hover
+{
+	color:#f9a828
+}
+#SlideShow .slide > img
+{
+	width:100%;
+	height:auto
+}
+#SlideShow .owl-nav
+{
+	width:100%;
+	position:absolute;
+	bottom:55%;
+	transition:translateY(50%)
+}
+#SlideShow .owl-nav > button
+{
+	display:block;	
+}
+#SlideShow .owl-nav > button:hover
+{
+	opacity:1
+}
+#SlideShow .owl-nav > button:hover span
+{
+	color:#f9a828
+}
+#SlideShow .owl-nav > .owl-next
+{
+	position:absolute;
+	left:50px;
+	z-index:100000000
+}
+#SlideShow .owl-nav > .owl-next span
+{
+	font-size:5rem;
+	color:#fff
+}
+#SlideShow .owl-nav > .owl-prev
+{
+	position:absolute;
+	right:50px;
+	z-index:100000000
+}
+#SlideShow .owl-nav > .owl-prev > span
+{
+	font-size:5rem;
+	color:#fff
+}
+#SlideShow .owl-dots
+{
+	position:absolute;
+	bottom:0;right:50%;
+	transform:translateX(50%);
+	z-index:10000;padding:10px 20px
+}
+#SlideShow .owl-dots  .owl-dot
+{
+	display:inline-block;
+	width:10px;height:10px;
+	background:#aaa;
+	border-radius:50%;
+	margin:0 5px
+}
+#SlideShow .owl-dots .owl-dot:focus
+{
+	border:none;
+	outline:none
+}
+#SlideShow .owl-dots  .active
+{
+	background:#f9a828;
+}
+#SlideShow .owl-dots  span
+{
+	display:block;
+	width:10px;
+	height:10px
+}
+#Slider-blog
+{
+	padding: 0 10%;
+}
+#Slider-blog .owl-nav {
+  position: absolute;
+	right: 15px;
+	left: 15px;
+	top: 15%;
+	z-index: 100;
+	font-size: 100px;
+}
+#Slider-blog .owl-nav > button {
+	color: #fff;
+	border-radius: 50%;
+}
+#Slider-blog .owl-nav > button:hover {
+  color: #78909C;
+}
+#Slider-blog .owl-next {
+  float: left;
+	border: 0px;
+}
+#Slider-blog .owl-prev {
+  float: right;
+}
+#Slider-blog .owl-dots {
+  margin-top: 20px;
+  text-align : center !important;
+}
+#Slider-blog .owl-dot {
+  display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px;
+	border-radius: 50%;
+	background: #A2C3D4;
+}
+
+#Slider-blog .owl-dot.active {
+  background: #5F747E;
+	width: 11px;
+	height: 11px;	
+}
+@media only screen and (max-width: 1440px)
+{
+#Menu
+{
+	width: 80%;
+	height: 10px;
+	padding: 0px;
+}
+
+
+#Menu a{
+	width: 15%;
+	font-size: 100%;
+	margin: 0.5%;
+	padding: 0px;
+	height: 40px;
+	line-height: 2.5;
+}
+#SlideShow .slide > img
+	{
+		object-fit: cover;
+		height: 800px;
+
+	}
+}
+@media only screen and (max-width: 1024px)
+{
+
+#Menu
+{
+	width: 80%;
+	height: 75px;
+	padding: 0px;
+}
+
+#Menu li{
+	
+	text-align: center;
+}
+#Menu a{
+	width: 15%;
+	font-size: 95%;
+	margin: 0.5%;
+	padding: 0px;
+	height: 40px;
+	line-height: 2.5;
+}
+#container
+{
+	margin: 0% auto;
+	width: 100%;
+	height: auto;
+
+}
+#container article
+{ 
+	margin-top: 1px;
+	width: 45%;
+	height: 200px;
+}
+#container article  > a > img
+{
+	height: 200px;
+}
+#container article  > a > h2
+{
+	font-size: 25px;
+	right: 50%;
+	top: 50%;
+	transform: translate(50%, -50%);
+
+}
+#blog_more{
+	width: 200px;
+	height: auto;
+	line-height: 35px;
+	display: block;
+	margin: 10% auto;
+	text-align: center;
+	border-radius: 100px;
+	transition: 0.2s;
+	position: relative;
+}
+#blog_more:hover{
+	color: white; 
+	background-color: #78909C; 
+}
+#SlideShow-blog
+{
+
+	margin-top: 5%;
+	width: 100%;
+	height: 650px;
+	text-align: center;
+	background-color: #EEEEEE;
+	padding: 4% 0 5%;
+}
+#footer	
+{
+	height:auto;
+}
+	#SlideShow
+	{
+		width: 100%;
+		height: 700px;
+	}
+	#SlideShow .slide 
+	{
+		height: 700px;	
+	}
+	#SlideShow
+	{
+		margin-bottom: 5px;
+	}
+	#SlideShow .slide > img
+	{
+		object-fit: cover;
+		height: 700px;
+
+	}
+}
+@media only screen and (max-width: 480px)
+{
+#Menu
+{
+	width: 80%;
+	height: 75px;
+	padding: 0px;
+}
+
+#Menu li
+{	
+	text-align: center;
+}
+#Menu a{
+	width: 30%;
+	font-size: 90%;
+	margin: 0.5%;
+	padding: 0px;
+	height: 40px;
+	line-height: 2.5;
+}
+	#SlideShow  .slide > .slide-title  > a
+	{
+		font-size: 20px;
+
+	}
+}
+
+
+
